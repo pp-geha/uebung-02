@@ -1,7 +1,7 @@
 
 
-function menu_toggle() {
-  var x = document.getElementById('menu_wrap');
+function toggle() {
+  var x = document.getElementById('main-menu');
   if (x.style.display === "block") {
       x.style.display = "none";
   } else {

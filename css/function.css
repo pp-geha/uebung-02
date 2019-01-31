@@ -18,6 +18,10 @@ body {
   font-family: "Montserrat";
 }
 
+img {
+  width: 100%;
+}
+
 .green {
   background-color: #becb00;
 }
@@ -51,6 +55,7 @@ body {
   background: #000;
   color: #becb00;
   width: 14%;
+  cursor: pointer;
 }
 
 .bars span {
@@ -66,9 +71,8 @@ body {
 .main-nav a {
   text-decoration: none;
   color: #000;
-  border-left: 5px solid #becb00;
   margin-left: -3rem;
-  padding-left: 3rem;
+  padding-left: 1rem;
 }
 
 .main-nav a:hover {
@@ -77,9 +81,9 @@ body {
 
 .main-nav li {
   display: block;
-  padding: .5rem;
+  padding: .25rem;
   font-size: 1.75rem;
-  left: 2.5rem;
+  left: 3.75rem;
   position: relative;
   line-height: 2.5rem;
   border-left: 5px solid #becb00;
@@ -103,14 +107,14 @@ body {
 .bb-logo img {
   width: 13rem;
   position: relative;
-  left: 5.5rem;
+  left: 5rem;
   padding: 5rem 1rem;
 }
 
 
 .pp-logo img {
   position: relative;
-  left: 8.5rem;
+  left: 8rem;
   width: 7rem;
 }
 
@@ -120,4 +124,16 @@ body {
   padding-left: 1rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
+}
+
+.section p {
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+.mySlides {
+  display: none;
 }
