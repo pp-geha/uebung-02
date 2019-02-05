@@ -137,3 +137,9 @@ img {
 .mySlides {
   display: none;
 }
+
+.leckeres {
+  padding-top: 7rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem
+}
